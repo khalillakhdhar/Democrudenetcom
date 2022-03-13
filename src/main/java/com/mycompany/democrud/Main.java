@@ -15,7 +15,11 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Connect c=new Connect();
+        //Connect c=new Connect();
+        UserCrudImplement uci=new UserCrudImplement();
+        uci.CreateUser("user");
+        
+        
     }
     
 }
