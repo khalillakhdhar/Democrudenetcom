@@ -17,8 +17,10 @@ public class Main {
         // TODO code application logic here
         //Connect c=new Connect();
         UserCrudImplement uci=new UserCrudImplement();
-        uci.CreateUser("user");
-        
+     //   uci.CreateUser("admin");
+     UserModel us=new UserModel(2, "administrateur");
+     //uci.updateUser(us);
+        uci.deleteUser(3);
         
     }
     
