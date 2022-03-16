@@ -20,7 +20,7 @@ public class Main {
      //   uci.CreateUser("admin");
      UserModel us=new UserModel(2, "administrateur");
      //uci.updateUser(us);
-        uci.deleteUser(3);
+        //uci.deleteUser(3);
         
     }
     
