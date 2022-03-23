@@ -41,7 +41,7 @@ Connect c=new Connect();
     @Override
     public void updateUser(UserModel u) {
         try {
-            String sql="UPDATE `user` SET`nom`=? WHERE `id`=?";
+            String sql="UPDATE `user` SET `nom`=? WHERE `id`=?";
             PreparedStatement stm=Connect.conn.prepareStatement(sql);
             stm.setString(1, u.getNom());
             stm.setInt(2, u.getId());

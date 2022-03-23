@@ -27,15 +27,14 @@ public class UserModel {
     public void setNom(String nom) {
         this.nom = nom;
     }
-
+// constructeur paramétré
     public UserModel(int id, String nom) {
         this.id = id;
         this.nom = nom;
     }
-
+// obligation de création manuelle
     public UserModel() {
     }
     
-    
-    
+  
 }
